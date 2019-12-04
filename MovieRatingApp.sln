@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRatingApp", "MovieRatingApp\MovieRatingApp.csproj", "{E97E3211-99DD-4218-A6A6-CD0AC501BED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieRatingApp.Data", "MovieRatingApp\MovieRatingApp.Data.csproj", "{E97E3211-99DD-4218-A6A6-CD0AC501BED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{8945B3CE-BA56-4861-A7E8-103AC58B99DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRatingApp.Data.Entities", "MovieRatingApp.Data.Entities\MovieRatingApp.Data.Entities.csproj", "{E9EE3B6A-9BBE-48C1-B4F0-F131317413E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{90B92E19-21B8-43D0-84E4-12B2CCE3379F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{E97E3211-99DD-4218-A6A6-CD0AC501BED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E97E3211-99DD-4218-A6A6-CD0AC501BED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E97E3211-99DD-4218-A6A6-CD0AC501BED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9EE3B6A-9BBE-48C1-B4F0-F131317413E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9EE3B6A-9BBE-48C1-B4F0-F131317413E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9EE3B6A-9BBE-48C1-B4F0-F131317413E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9EE3B6A-9BBE-48C1-B4F0-F131317413E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E97E3211-99DD-4218-A6A6-CD0AC501BED4} = {8945B3CE-BA56-4861-A7E8-103AC58B99DE}
+		{E9EE3B6A-9BBE-48C1-B4F0-F131317413E3} = {8945B3CE-BA56-4861-A7E8-103AC58B99DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {826A3F95-AF6E-43D4-A29D-51DD4482388F}
